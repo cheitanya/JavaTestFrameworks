@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression">
+    <test name="login_tests">
+        <parameter name="userName" value="xt@xt.com"/>
+        <parameter name="password" value="xtxtxt" />
+
+        <classes>
+            <class name="login.LoginTestWithDataProvider"/>
+        </classes>
+
+    </test>
+</suite>

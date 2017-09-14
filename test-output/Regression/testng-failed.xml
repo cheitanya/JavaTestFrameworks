@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test name="login_tests(failed)">
+    <parameter name="password" value="xtxtxt"/>
+    <parameter name="userName" value="xt@xt.com"/>
+    <classes>
+      <class name="login.LoginTestWithParam">
+        <methods>
+          <include name="verifyBeforeSuite"/>
+          <include name="verifyValidLogIntoSpree"/>
+          <include name="verifyValidLogIntoSpreeWithDataProvider"/>
+        </methods>
+      </class> <!-- login.LoginTestWithParam -->
+    </classes>
+  </test> <!-- login_tests(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" parallel="classes" thread-count="2">
+    <test name="login_tests" group-by-instances="true">
+        <parameter name="userName" value="xt@xt.com"/>
+        <parameter name="password" value="xtxtxt" />
+        <classes>
+            <class name="login.LoginTestWithParam"/>
+            <class name="login.LoginTestWithModularize"/>
+            <class name="search.SearchProductsTest"/>
+        </classes>
+
+    </test>
+</suite>
