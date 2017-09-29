@@ -1,14 +1,6 @@
 Setup new user on Mac machines (For volunteers)
-> Create new user on your Mac machine with the name ‘VodQA’
-Add a user
-In Users & Groups preferences, click Add (+) below the list of users.
-Choose the type of user you want to create from the New Account pop-up menu.
-Be sure you know the different user types before you choose. For descriptions, see:
-Type a full name for the new user. An account name is generated automatically. To use a different account name, enter it now—you can’t change it later.
-Enter a password for the user, then enter it again to verify. Using a password hint is recommended to help the user remember his or her password. (Recommended to keep it the same as password)
-Click Create User.
+> 
 
-> Set the password as ‘Vodqavodqa@1’ (We recommend to keep this as the password hint)
 
 Setup IDE and Project for Test Automation (For volunteers)
 
