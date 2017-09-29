@@ -1,8 +1,3 @@
-Setup new user on Mac machines (For volunteers)
-> 
-
-
-Setup IDE and Project for Test Automation (For volunteers)
 
 > Download and Install “Community Edition” of intelliJ  (Make sure JAVA is installed)
           https://www.jetbrains.com/idea/#chooseYourEdition
